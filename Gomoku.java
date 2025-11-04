@@ -1,12 +1,10 @@
-package assignment;
-
 import java.util.*;
 import java.io.*;
 
 /**
  * Name: Yi Xing
  * Date: 2023/11/28
- * Desc: final assignment version 1 ( haven't done )
+ * Desc: A terminal Based Human vs. Computer Gomoku Game
  * 12.1 start doing main method choose first or second
  * 12.4 finish black check win condition
  * 12.5 finish white check win condition
@@ -22,7 +20,7 @@ import java.io.*;
  * 12.21 fixed some bugs and add quit functions
  */
 
-public class FinalAssignment {
+public class Gomoku {
 	
 	public static int[]blackX = new int [125];
 	public static int[]whiteX = new int [125];
